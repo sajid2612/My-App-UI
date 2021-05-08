@@ -1,0 +1,37 @@
+package com.react.myapp.domain.request;
+
+import java.util.List;
+import lombok.Data;
+
+
+@Data
+public class UserRequest {
+	private String agreement;
+	private String password;
+	private String confirm;
+	private String country;
+	private String description;
+	private String email;
+	private String nickname;
+	private String phone;
+	private String prefix;
+	private List<String> residence;
+	private String website;
+}
+
+
+//	public User getUserOf(UserRequest userRequest) {
+//		User user = new User();
+//		user.setEmail(userRequest.getEmail());
+//		user.setAddress(getAddressOfArray(userRequest.getResidence()));
+//		user.setPassword(userRequest.getPassword());
+//		user.setPhoneCountryCode(userRequest.getPrefix());
+//		user.setPhoneNumber(userRequest.getPhone());
+//		user.setNickName(userRequest.getNickname());
+//
+//		return user;
+//	}
+
+//	private User.Address getAddressOfArray(List residence) {
+//		return new User.Address().setAddress1(residence.get(0).toString()).setAddress2(residence.get(1).toString()).setAddress3(residence.get(2).toString());
+//	}

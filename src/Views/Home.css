@@ -1,0 +1,13 @@
+div .search-background {
+    background-position: 50% 50%;
+    background-image: url(https://trvimg.r10s.jp/top/keyVisual.jpg?resize=1200:*&output-format=webp);
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.ant-input.popover-center {
+    width: 250px;
+    height: 32px;
+}
